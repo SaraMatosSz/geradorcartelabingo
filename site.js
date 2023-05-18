@@ -33,7 +33,7 @@ function gerarValoresPadroes() {
 
   if (tipoBingo === 1) {
     // gerando 90 números das casas
-    valores.value = Array(90)
+    valores.value = Array(75)
       .fill()
       .map((_, index) => index + 1)
       .toString()
